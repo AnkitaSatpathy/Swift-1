@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		072118F82175CE2800B4662A /* golden-retriever-puppy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 072118F72175CE2800B4662A /* golden-retriever-puppy.jpg */; };
 		075FD46F1A34D2E800513A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FD46E1A34D2E800513A3A /* AppDelegate.swift */; };
 		075FD4711A34D2E800513A3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FD4701A34D2E800513A3A /* ViewController.swift */; };
 		075FD4741A34D2E800513A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075FD4721A34D2E800513A3A /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		072118F72175CE2800B4662A /* golden-retriever-puppy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "golden-retriever-puppy.jpg"; sourceTree = "<group>"; };
 		075FD4691A34D2E800513A3A /* CoreImageCIDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreImageCIDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		075FD46D1A34D2E800513A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		075FD46E1A34D2E800513A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				075FD48E1A34D34B00513A3A /* emotions.jpg */,
+				072118F72175CE2800B4662A /* golden-retriever-puppy.jpg */,
 				075FD46E1A34D2E800513A3A /* AppDelegate.swift */,
 				075FD4701A34D2E800513A3A /* ViewController.swift */,
 				075FD4721A34D2E800513A3A /* Main.storyboard */,
@@ -161,12 +164,14 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Carlos Butron";
 				TargetAttributes = {
 					075FD4681A34D2E800513A3A = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 58BVS8Y9KF;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 					};
 					075FD47D1A34D2E900513A3A = {
 						CreatedOnToolsVersion = 6.1;
@@ -199,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072118F82175CE2800B4662A /* golden-retriever-puppy.jpg in Resources */,
 				075FD4741A34D2E800513A3A /* Main.storyboard in Resources */,
 				075FD48F1A34D34B00513A3A /* emotions.jpg in Resources */,
 				075FD4791A34D2E800513A3A /* LaunchScreen.xib in Resources */,
@@ -275,12 +281,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -327,12 +335,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -364,11 +374,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58BVS8Y9KF;
 				INFOPLIST_FILE = CoreImageCIDetector/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "es.carlosbutron.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = es.carlosbutron.CoreImageCIDetector2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -377,11 +391,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58BVS8Y9KF;
 				INFOPLIST_FILE = CoreImageCIDetector/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "es.carlosbutron.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = es.carlosbutron.CoreImageCIDetector2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

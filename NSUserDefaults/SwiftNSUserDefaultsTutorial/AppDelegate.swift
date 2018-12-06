@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SwiftNSUserDefaultsTutorial
 //
-//  Created by Carlos Butron on 01/11/15.
-//  Copyright © 2015 Carlos Butron. All rights reserved.
+//  Created by btrn on 01/01/2018.
+//  Copyright © 2018 btrn. All rights reserved.
 //
 
 import UIKit

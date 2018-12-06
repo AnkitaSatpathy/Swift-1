@@ -1,9 +1,9 @@
 //
 //  OwnerBookingVoidViewController.swift
-//  SocialCar
+//  Booking
 //
-//  Created by Carlos  on 21/01/2017.
-//  Copyright © 2017 SocialCar. All rights reserved.
+//  Created by btrn on 01/01/2018.
+//  Copyright © 2018 btrn. All rights reserved.
 //
 
 import UIKit

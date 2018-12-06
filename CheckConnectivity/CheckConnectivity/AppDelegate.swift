@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  CheckConnectivity
 //
-//  Created by Mukesh Thawani on 09/12/15.
-//  Copyright © 2015 Mukesh Thawani. All rights reserved.
+//  Created by btrn on 01/01/2018.
+//  Copyright © 2018 btrn. All rights reserved.
 //
 
 import UIKit

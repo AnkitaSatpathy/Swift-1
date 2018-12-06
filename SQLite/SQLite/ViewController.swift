@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  SQLite
 //
-//  Created by Carlos Butron on 06/12/14.
-//  Copyright (c) 2014 Carlos Butron.
+//  Created by btrn on 01/01/2018.
+//  Copyright © 2018 btrn. All rights reserved.
 //
 
 import UIKit

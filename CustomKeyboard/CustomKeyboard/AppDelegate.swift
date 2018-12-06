@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  CustomKeyboard
 //
-//  Created by 浅井 岳大 on 2016/03/07.
-//  Copyright © 2016年 浅井 岳大. All rights reserved.
+//  Created by btrn on 01/01/2018.
+//  Copyright © 2018 btrn. All rights reserved.
 //
 
 import UIKit

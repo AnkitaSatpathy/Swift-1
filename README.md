@@ -83,7 +83,7 @@ develop - The active development branch. Pull requests should be directed to thi
 License
 ----
 
-[The MIT License (MIT)](https://github.com/btrn/Swift/blob/master/LICENSE.md)
+[The MIT License (MIT)](https://github.com/btrn/Swift/blob/master/LICENSE)
  
 Contributing
 ----

@@ -2,7 +2,7 @@
 Reusable Swift code 
 ====================
 
-This project provides some examples in Swift 4 for iOS, its general syntax should be familiar enough for most programmers to understand.
+This project provides some examples in Swift 4.2 for iOS, its general syntax should be familiar enough for most programmers to understand.
 
 Audience
 ---------------------
